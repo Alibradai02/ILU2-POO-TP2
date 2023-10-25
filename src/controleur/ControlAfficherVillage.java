@@ -8,6 +8,8 @@ public class ControlAfficherVillage {
 	public ControlAfficherVillage(Village village) {
 		this.village = village;
 	}
+	
+	
 
 	public String[] donnerNomsVillageois() {
 		return village.donnerVillageois();
